@@ -14,7 +14,7 @@ driver.find_element(By.ID, "pontuacao_nao").click()
 time.sleep(10)
 state_dropdown = driver.find_element(By.ID, "cpf_estado")
 state_dropdown.send_keys("AM")
-time.sleep(10)
+time.sleep(5)
 
 # Gerar CPF até encontrar o desejado
 while True:
